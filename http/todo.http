@@ -1,0 +1,14 @@
+### TODO Create
+
+POST http://localhost:8080/todos
+Content-Type: application/json
+
+{
+    "title": "코틀린 공부하기",
+    "description": "코틀린 문법을 공부하자",
+    "finished": false
+}
+
+### TODO Get
+
+GET http://localhost:8080/todos
